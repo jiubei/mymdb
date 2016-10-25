@@ -1,5 +1,5 @@
 // Connect to mongoose.
-var mongo_url = prcess.env.MONGODB_URI || 'mongodb://localhost/mymdb';
+var mongo_url = process.env.MONGODB_URI || 'mongodb://localhost/mymdb';
 
 // require mongoose
 var mongoose = require('mongoose');
